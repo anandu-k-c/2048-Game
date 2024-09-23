@@ -1,5 +1,5 @@
 
- Deployed a 2048 game app on Elastic Kubernetes Services (EKS) with Ingress. In this project i am using an AWS Fargate - Serverless Compute.
+ Deployed a 2048 game app on AWS Elastic Kubernetes Services (EKS) with Ingress. In this project i am using an AWS Fargate - Serverless Compute.
 
  <img width="1440" alt="1" src="https://github.com/user-attachments/assets/8068b40b-465d-4ed7-a2ae-5cd5f2e1a0e7">
 <img width="1440" alt="2" src="https://github.com/user-attachments/assets/dcbf8340-e3a9-4ec2-be94-09ce02bd90b7">

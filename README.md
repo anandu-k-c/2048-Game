@@ -1,5 +1,5 @@
 
- # Deployed 2048 Game App on AWS Elastic Kubernetes Service (EKS) with Ingress and AWS Fargate for Serverless Compute
+ ## Deployed 2048 Game App on AWS Elastic Kubernetes Service (EKS) with Ingress and AWS Fargate for Serverless Compute
 
 In this project, the 2048 game app is containerized and deployed on Amazon Elastic Kubernetes Service (EKS), leveraging AWS Fargate for serverless compute. This setup eliminates the need to manage underlying servers, providing a fully managed, scalable environment for the application.
 
@@ -15,7 +15,7 @@ Key Features of the Deployment:
 
 
 This project demonstrates the power of AWS Fargate and Kubernetes for deploying scalable, serverless applications while maintaining flexibility and high availability for the end users.
-# Sample ScreenShot
+## Sample ScreenShot
  <img width="1440" alt="1" src="https://github.com/user-attachments/assets/8068b40b-465d-4ed7-a2ae-5cd5f2e1a0e7">
 <img width="1440" alt="2" src="https://github.com/user-attachments/assets/dcbf8340-e3a9-4ec2-be94-09ce02bd90b7">
 <img width="1440" alt="3" src="https://github.com/user-attachments/assets/8d82132f-e5be-4671-ae40-01278bfafee2">

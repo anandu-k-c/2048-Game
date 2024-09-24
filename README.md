@@ -5,26 +5,17 @@ In this project, the 2048 game app is containerized and deployed on Amazon Elast
 
 Key Features of the Deployment:
 
-	•	Serverless Compute with AWS Fargate:
-AWS Fargate is used as the compute engine, enabling serverless deployment of the 2048 game app. By using Fargate, there is no need to manage EC2 instances, as Kubernetes pods are automatically run on a serverless infrastructure, ensuring auto-scaling and cost-efficiency based on demand.
-	•	Kubernetes Ingress:
-Kubernetes Ingress is used to expose the 2048 game application to external users. Ingress manages HTTP routing and SSL termination, allowing seamless access to the application through defined routing rules.
-	•	Scalability and High Availability:
-With AWS EKS and Fargate, the 2048 game app benefits from high availability and automatic scaling. Fargate automatically provisions and de-provisions resources based on traffic, ensuring optimal performance without manual intervention.
-	•	Security:
-AWS IAM roles and security groups are configured to provide fine-grained access control and secure interaction between services within the EKS cluster.
+1) Serverless Compute with AWS Fargate: AWS Fargate is used as the compute engine, enabling serverless deployment of the 2048 game app. By using Fargate, there is no need to manage EC2 instances, as Kubernetes pods are automatically run on a serverless infrastructure, ensuring auto-scaling and cost-efficiency based on demand.
 
-Benefits of the Deployment:
+2) Kubernetes Ingress: Kubernetes Ingress is used to expose the 2048 game application to external users. Ingress manages HTTP routing and SSL termination, allowing seamless access to the application through defined routing rules.
+   
+3) Scalability and High Availability: With AWS EKS and Fargate, the 2048 game app benefits from high availability and automatic scaling. Fargate automatically provisions and de-provisions resources based on traffic, ensuring optimal performance without manual intervention.
+ 
+4) Security: AWS IAM roles and security groups are configured to provide fine-grained access control and secure interaction between services within the EKS cluster.
 
-	•	Fully Managed Infrastructure:
-By using AWS Fargate with EKS, the infrastructure is entirely managed, reducing operational overhead and allowing the focus to remain on application development.
-	•	Cost Efficiency:
-Serverless computing with Fargate ensures that resources are only used when needed, optimizing costs by scaling down during periods of low traffic and scaling up during peak demand.
-	•	Simplified Application Exposure:
-Kubernetes Ingress, combined with an AWS ALB (Application Load Balancer), simplifies external access, allowing users to connect to the 2048 game through an easy-to-manage interface.
 
 This project demonstrates the power of AWS Fargate and Kubernetes for deploying scalable, serverless applications while maintaining flexibility and high availability for the end users.
-
+# Sample ScreenShot
  <img width="1440" alt="1" src="https://github.com/user-attachments/assets/8068b40b-465d-4ed7-a2ae-5cd5f2e1a0e7">
 <img width="1440" alt="2" src="https://github.com/user-attachments/assets/dcbf8340-e3a9-4ec2-be94-09ce02bd90b7">
 <img width="1440" alt="3" src="https://github.com/user-attachments/assets/8d82132f-e5be-4671-ae40-01278bfafee2">
